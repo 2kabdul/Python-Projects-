@@ -1,0 +1,49 @@
+def convert_eo(intlist):
+    result = ''
+    for val in intlist
+        if val % 2 == 0:
+            result = result + 'E'
+        else:
+            result += 'O'
+    return result
+
+def second_smallest(numlist):
+    # fin min (prev function) remove that,
+    #   then fin min
+    #
+    # Sort then return index 1
+    newlist = numlist[:]
+    newlist.sort()
+    return newlist[1]
+
+
+def add_one(nmlist):
+    for i in range(len(numlist)):
+        numlist[i] += 1
+
+def remove_first_negative(numlist):
+
+    ''' Purpose: remove first
+
+        parameter:
+
+        return vale:
+    '''
+    for val in numlist:
+        if numlist < 0:
+            numlist.remove(val)
+            return None
+
+def only_div3(numlist):
+    ''' Purpose: remove first
+
+        parameter:
+
+        return vale:
+    '''
+    newlist = []
+    for val in numlist
+        if numlist % 3 == 0:
+            #newlist.insert(0, val)
+            newlist.append(val)
+    return newlist 
